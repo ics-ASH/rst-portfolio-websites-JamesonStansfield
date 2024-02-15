@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(81, 87, 91);
+}
+
+.tab-container {
+    display: flex;
+    position: absolute; right: 70px;
+    position: absolute; top: 75px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #3b3b3b;
+    border-radius: 10px 10px;
+    margin-right: 3px;
+}
