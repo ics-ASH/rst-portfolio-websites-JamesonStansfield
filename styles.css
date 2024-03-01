@@ -23,3 +23,38 @@ body {
     text-decoration: none;
     background-color: #38444a;
 }
+.introbox{
+    background-color: #38444a;
+    padding: 10px;
+    border-radius: 7px 7px;
+    margin-right: 500px;
+}
+.intropar{
+    color: rgb(184, 208, 228);
+    font-family: 'Montserrat';
+}
+.week1journal{
+    color: rgb(184, 208, 228);
+    background-color: #38444a;
+    border-radius: 7px 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 500px;
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat';
+    padding-left: 5px;
+}
+button{
+    background-color: #38444a;
+    color: rgb(184, 208, 228);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+*{
+    color: rgb(184, 208, 228);
+}
