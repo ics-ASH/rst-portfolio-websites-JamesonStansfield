@@ -65,6 +65,20 @@ body {
     margin-left: 200px;
     font-family: 'Ubuntu';
 }
+
+.week3journal{
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+}
+
 h1{
     font-family: 'Ubuntu';
     text-align: center;
