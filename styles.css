@@ -79,6 +79,45 @@ body {
     font-family: 'Ubuntu';
 }
 
+.class-projects-folder {
+    padding-top: 19px;
+}
+
+.class-project {
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+}
+
+.bookmarks-folder {
+    padding-top: 19px;
+}
+
+.bookmark {
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
 h1{
     font-family: 'Ubuntu';
     text-align: center;
