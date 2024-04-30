@@ -31,6 +31,31 @@ body {
     background-color: #9da3a7;
 }
 
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px 3px;
+    margin-right: 4px;
+    text-decoration: none;
+    background-color: #ADB5BD;
+    box-shadow: 3px 3px #6C757D;
+    transition: 0.5s ease;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: #9da3a7;
+}
+
+button a {
+    text-decoration: none;
+    color: #343A40;
+}
+
 .introbox{
     background-color: #CED4DA;
     padding: 10px;
