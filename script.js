@@ -72,3 +72,40 @@ function randomInteger() {
     rand = Math.floor(Math.random() * 30);
     return rand;
 }
+
+
+// Image Gallery Code
+
+const img1 = document.getElementById("img1");
+const img2 = document.getElementById("img2");
+const img3 = document.getElementById("img3");
+const switchButton = document.getElementById("image-switch");
+
+function imageCycle() {
+    let currentImage = 1; 
+    img2.style.display = "none";
+    img1.style.display = "none";
+        switchButton.addEventListener("click", event => {
+            if (currentImage == 1) {
+                img1.style.display = "none";
+                currentImage = 2;
+            } else if (currentImage == 2) {
+                img2.style.display = "none";
+                currentImage = 3;
+            } else if (currentImage == 3) {
+                img3.style.display = "none";
+                currentImage = 1;
+            }
+            if (currentImage == 1) {
+                img1.style.display = "Show";
+            } else if (currentImage == 2) {
+                img2.style.display = "Show";
+            } else if (currentImage == 3) {
+                img3.style.display = "Show";
+            }
+        });
+}
+
+
+
+imageCycle();

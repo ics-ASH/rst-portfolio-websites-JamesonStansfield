@@ -168,3 +168,32 @@ h1{
     margin-right: 200px;
     margin-left: 200px;
 }
+
+.par-box {
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+
+}
+
+
+/* Styles for image gallery */
+.gallery-container {
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+}
