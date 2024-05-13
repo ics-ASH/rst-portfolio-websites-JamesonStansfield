@@ -83,8 +83,8 @@ const switchButton = document.getElementById("image-switch");
 
 function imageCycle() {
     let currentImage = 1; 
-    img2.style.display = "none";
-    img1.style.display = "none";
+    img2.style.display = "block";
+    img1.style.display = "block";
         switchButton.addEventListener("click", event => {
             if (currentImage == 1) {
                 img1.style.display = "none";
