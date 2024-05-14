@@ -197,3 +197,7 @@ h1{
     margin-left: 200px;
     font-family: 'Ubuntu';
 }
+
+.gallery-image {
+    display: none;
+}
