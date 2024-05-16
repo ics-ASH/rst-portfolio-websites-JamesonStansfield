@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="Favicons/icon_home.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jameson's Portfolio</title>
@@ -20,21 +21,11 @@
   <div class="tab"><a href="FinalProject.html">Final Project</a></div>
 </div>
   <div id="fortuneVar">
-    <button onclick="messages()">Click Me To Display Your Fortune!</button>
+    <button id="fortune-button" onclick="messages()">Click Me To Display Your Fortune!</button>
   </div>
 </body>
 <body>
-  <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname"><br><br>
-    <input type="submit" value="Submit">
-  </form>
-</body>
-<body>
   <br>
-  <!--
   <div class="introbox">
     <div class="intropar">
       <p>
@@ -53,28 +44,18 @@
       </p>
     </div>
   </div><br>
+
+
+  <footer>
+    <p>Author: Jameson Stansfield</p>
+    <p>Email:<a href="mailto:jameson.stansfield@gmail.com">jameson.stansfield@stu.ocsb.ca</a>
+      <form id="email-form">
+        <label for="email">Inquiries? Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit">
+      </form>
+  </footer></p>
+
 </body>
--->
-<!--
-<body>
-  <div id="gallery-container">
-    <div class="par-box">
-      <strong>Javascript Submission Gallery</strong>
-    </div>
-    <div id="img1">
-      <img src="GalleryImages/Unit1Completion.PNG" width="620" class="gallery-image">
-    </div>
-    <div id="img2">
-      <img src="GalleryImages/Unit2Completion.PNG" width="620" class="gallery-image">
-    </div>
-    <div id="img3">
-      <img src="GalleryImages/Unit3Completion.PNG" width="620" class="gallery-image">
-    </div>
-    <div id="image-switch">
-      <button id="image-switch">></button>
-    </div>
-  </div>
-</body>
--->
 <script src="script.js"></script>
 </html>

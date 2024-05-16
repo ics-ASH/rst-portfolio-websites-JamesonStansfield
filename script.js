@@ -73,42 +73,5 @@ function randomInteger() {
     return rand;
 }
 
-
-// Image Gallery Code
-/*
-const img1 = document.getElementById("img1");
-const img2 = document.getElementById("img2");
-const img3 = document.getElementById("img3");
-const switchButton = document.getElementById("image-switch");
-
-let currentImage = 1;
-
-function imageCycle() {
-    switchButton.addEventListener("click", event => {
-        console.log('button clicked');
-        if (currentImage === 1) {
-            img1.style.display = "none";
-            img2.style.display = "block";
-            currentImage = 2;
-        } else if (currentImage === 2) {
-            img2.style.display = "none";
-            img3.style.display = "block";
-            currentImage = 3;
-        } else if (currentImage === 3) {
-            img3.style.display = "none";
-            img1.style.display = "block";
-            currentImage = 1;
-        }
-    });
-}
-img1.style.display = "block";
-
-imageCycle();
-*/
-
-
-//Login
-
-let fName = document.getElementById("fname");
-let lName = document.getElementById("lname");
+//Email Input Field:
 
