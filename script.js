@@ -73,5 +73,20 @@ function randomInteger() {
     return rand;
 }
 
+
+
 //Email Input Field:
+
+let emailInput = document.getElementById("email-form");
+emailInput.addEventListener("submit", () => {
+
+    let email = document.getElementById("email");
+    if (email.value == "") {
+        alert("Please fill out the form properly.");
+    } else {
+        alert("Your email has been successfully submitted!");
+        console.log(email.value);
+    }
+    
+})
 

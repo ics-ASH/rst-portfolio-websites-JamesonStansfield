@@ -5,6 +5,8 @@ footer {
     text-align: center;
     color: #343A40;
     background-color: #ADB5BD;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 input {
     background-color: #ADB5BD;
@@ -130,6 +132,19 @@ button a {
     font-family: 'Ubuntu';
 }
 
+.week5journal{
+    color: #343A40;
+    background-color: #CED4DA;
+    border-radius: 3px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Ubuntu';
+}
+
 .class-projects-folder {
     padding-top: 19px;
 }
@@ -180,4 +195,28 @@ h1{
     color: #343A40;
     margin-right: 200px;
     margin-left: 200px;
+}
+
+.paragraph {
+    font-family: 'Ubuntu';
+}
+
+/* Image Gallery Code */
+
+.image-gallery {
+    background-color: #CED4DA;
+    padding: 10px;
+    border-radius: 3px 3px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    padding: 5px;
+    border-radius: 50%;
+}
+img {
+    border-radius: 10px;
 }
