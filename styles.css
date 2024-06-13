@@ -1,4 +1,27 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343A40;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: 'Ubuntu';
+    width: 100%;
+}
+
+header h1 {
+    color: #f2f7fd;
+}
+
+.tab-folder {
+    height: 5vh;
+    align-items: center;
+    display: flex;
+}
 
 footer {
     padding: 2px;
@@ -14,20 +37,12 @@ input {
 }
 
 body {
-    margin: 5px;
     background-color: #E9ECEF;
-}
-
-.tab-folder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Ubuntu';
 }
 
 .tab a {
     text-decoration: none;
-    color: #343A40;
+    color: #f2f7fd;
 }
 
 .tab {
@@ -37,15 +52,15 @@ body {
     border-radius: 3px 3px;
     margin-right: 4px;
     text-decoration: none;
-    background-color: #ADB5BD;
-    box-shadow: 3px 3px #6C757D;
+    color: #f2f7fd;
     transition: 0.5s ease;
 }
 
 .tab:hover{
-    background-color: #9da3a7;
+    color: #343A40;
 }
 
+/*
 button {
     padding: 10px;
     cursor: pointer;
@@ -70,7 +85,7 @@ button a {
     text-decoration: none;
     color: #343A40;
 }
-
+*/
 .introbox{
     background-color: #CED4DA;
     padding: 10px;
@@ -93,82 +108,15 @@ button a {
     margin-left: 200px;
     font-family: 'Ubuntu';
 }
-.week2journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
-}
 
-.week3journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
-}
 
-.week4journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
-}
-
-.week5journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
-}
-
-.week6journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
-}
-
-.week7journal{
-    color: #343A40;
-    background-color: #CED4DA;
-    border-radius: 3px 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Ubuntu';
+@media only screen and (max-width: 768px) {
+    .week1journal {
+        height: 25vh;
+        margin-right: 10px;
+        margin-left: 10px;
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -188,6 +136,8 @@ button a {
 
 .bookmarks-folder {
     padding-top: 19px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .bookmark {
@@ -203,11 +153,25 @@ button a {
     font-family: 'Ubuntu';
     display: grid;
     align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
     column-gap: 5px;
     margin-bottom: 10px;
+    height: 15vh;
 }
 
+@media only screen and (max-width: 768px) {
+    .bookmarks-folder {
+        grid-template-columns: 1fr;
+    }
+    .bookmark {
+        height: 40vh;
+        margin-right: 10px;
+        margin-left: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+
+/*
 h1{
     font-family: 'Ubuntu';
     text-align: center;
@@ -220,7 +184,7 @@ h1{
     margin-right: 200px;
     margin-left: 200px;
 }
-
+*/
 .paragraph {
     font-family: 'Ubuntu';
 }
